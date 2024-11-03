@@ -1,0 +1,20 @@
+{
+  "name": "Rock_Big_2",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9d06907c-0770-4083-90ac-dae6a295933f",
+  "fileKey": "Rock_Big_2.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Stylized Nature MegaKit[Pro]\\OBJ\\Rock_Big_2.obj",
+  "materialLib": "Rock_Big_2.mtl",
+  "mesh": {
+    "collisions": {}
+  },
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9d069115-4502-4756-b517-a561c5e4ba02",
+      "name": "Rocks"
+    }
+  ]
+}

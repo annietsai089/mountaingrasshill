@@ -1,0 +1,14 @@
+{
+  "name": "Leaf_Pine",
+  "type": "texture",
+  "collisionDetection": true,
+  "id": "9d0645a1-91d4-471b-906c-a2355482faf4",
+  "fileKey": "Leaf_Pine.png",
+  "fileFormat": "png",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Stylized Nature MegaKit[Pro]\\Textures\\Leaf_Pine.png",
+  "texture": {
+    "flipY": true,
+    "wrapS": "repeat",
+    "wrapT": "repeat"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Pine leaves dark yellow Red",
+  "type": "material",
+  "material": {
+    "type": "standard",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#ee701b"
+      },
+      "roughness": {
+        "type": 1
+      },
+      "metalness": {
+        "type": 1
+      },
+      "map": {
+        "type": 2,
+        "value": "9d0645a1-91d4-471b-906c-a2355482faf4"
+      },
+      "lightMap": {
+        "type": 2
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "emissive": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2
+      },
+      "bumpScale": {
+        "type": 1
+      },
+      "normalMap": {
+        "type": 2
+      },
+      "normalScale": {
+        "type": 6,
+        "value": [
+          0,
+          0
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "roughnessMap": {
+        "type": 2
+      },
+      "metalnessMap": {
+        "type": 2
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      }
+    },
+    "transparent": true
+  },
+  "id": "9d06a41e-180e-46d2-b08d-5c84d97a4ae4"
+}

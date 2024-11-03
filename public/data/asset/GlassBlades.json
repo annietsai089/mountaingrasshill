@@ -1,0 +1,30 @@
+{
+  "name": "GlassBlades",
+  "type": "material",
+  "material": {
+    "type": "shader",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#99ec88"
+      },
+      "colorBottom": {
+        "type": 10,
+        "value": "#1a893b"
+      },
+      "alphaMap": {
+        "type": 2,
+        "value": "9cf471f9-9aea-4011-bf4a-aa876a7d3d8a"
+      }
+    },
+    "shader": "GrassShader",
+    "transparent": true,
+    "bloom": true
+  },
+  "id": "9cf4908e-f3d8-45d5-8db6-ff0e1ec44f16"
+}

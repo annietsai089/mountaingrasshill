@@ -1,0 +1,14 @@
+{
+  "name": "Large pine leaf",
+  "type": "texture",
+  "collisionDetection": true,
+  "id": "9d06a9cf-7aae-4e26-9b14-7bcca4362672",
+  "fileKey": "Leaf_Pine.png",
+  "fileFormat": "png",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Stylized Nature MegaKit[Pro]\\Textures\\Leaf_Pine.png",
+  "texture": {
+    "flipY": true,
+    "wrapS": "repeat",
+    "wrapT": "repeat"
+  }
+}

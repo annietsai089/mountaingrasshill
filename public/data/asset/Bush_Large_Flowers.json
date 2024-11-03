@@ -1,0 +1,13 @@
+{
+  "name": "Bush_Large_Flowers",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01,
+    "collisions": {}
+  },
+  "id": "9d162e68-1e56-40c8-a3ff-c217baf10c75",
+  "fileKey": "Bush_Large_Flowers.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Stylized Nature MegaKit[Pro]\\FBX\\Bush_Large_Flowers.fbx"
+}

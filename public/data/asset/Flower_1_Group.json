@@ -1,0 +1,25 @@
+{
+  "name": "Flower_1_Group",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9d0697be-fa38-4319-ad62-3a27c8cc189b",
+  "fileKey": "Flower_1_Group.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Stylized Nature MegaKit[Pro]\\OBJ\\Flower_1_Group.obj",
+  "materialLib": "Flower_1_Group.mtl",
+  "mesh": {
+    "collisions": {}
+  },
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9d064a34-7a04-419a-a754-924632ef2c62",
+      "name": "Leaves"
+    },
+    {
+      "color": "#ffffff",
+      "materialId": "9d06981f-1cce-4686-a400-87b7889bf26c",
+      "name": "Flowers"
+    }
+  ]
+}

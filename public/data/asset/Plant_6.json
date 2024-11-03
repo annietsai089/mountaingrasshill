@@ -1,0 +1,22 @@
+{
+  "name": "Plant_6",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9d06a355-3740-41c5-9091-c0ef35ab302d",
+  "fileKey": "Plant_6.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Stylized Nature MegaKit[Pro]\\OBJ\\Plant_6.obj",
+  "materialLib": "Plant_6.mtl",
+  "mesh": {
+    "collisions": {}
+  },
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9cf49303-b0b8-4868-b113-6f7de738edc7",
+      "name": "Leaves"
+    }
+  ],
+  "castShadow": true,
+  "receiveShadow": true
+}

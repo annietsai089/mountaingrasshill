@@ -1,0 +1,25 @@
+{
+  "name": "Pine_5",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9d06a21c-a46c-4748-a929-7ed10834c032",
+  "fileKey": "Pine_5.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Stylized Nature MegaKit[Pro]\\OBJ\\Pine_5.obj",
+  "materialLib": "Pine_5.mtl",
+  "mesh": {
+    "collisions": {}
+  },
+  "materialAssignments": [
+    {
+      "color": "#ffffff",
+      "materialId": "9d064620-9d94-455c-bd69-8c2565b93a4a",
+      "name": "Bark_NormalTree"
+    },
+    {
+      "color": "#ffffff",
+      "materialId": "9d06a14c-e358-48a4-bda9-07ad162612c9",
+      "name": "Leaves_Pine"
+    }
+  ]
+}

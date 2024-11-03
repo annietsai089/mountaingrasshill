@@ -1,0 +1,97 @@
+{
+  "name": "Cherry Blossom",
+  "type": "material",
+  "material": {
+    "type": "standard",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 2,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#fd7cf2"
+      },
+      "roughness": {
+        "type": 1
+      },
+      "metalness": {
+        "type": 1
+      },
+      "map": {
+        "type": 2,
+        "value": "9d069068-88f8-470b-895f-12002b8f24df"
+      },
+      "lightMap": {
+        "type": 2,
+        "value": "9d069068-88f8-470b-895f-12002b8f24df"
+      },
+      "lightMapIntensity": {
+        "type": 1
+      },
+      "aoMap": {
+        "type": 2,
+        "value": "9d069068-88f8-470b-895f-12002b8f24df"
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "emissive": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2
+      },
+      "bumpScale": {
+        "type": 1
+      },
+      "normalMap": {
+        "type": 2
+      },
+      "normalScale": {
+        "type": 6,
+        "value": [
+          0,
+          0
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "roughnessMap": {
+        "type": 2
+      },
+      "metalnessMap": {
+        "type": 2
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      }
+    },
+    "transparent": true
+  },
+  "id": "9d10554d-4de4-41ff-a0a8-948a1433c807"
+}

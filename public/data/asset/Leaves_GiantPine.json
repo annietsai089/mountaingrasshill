@@ -1,0 +1,14 @@
+{
+  "name": "Leaves_GiantPine",
+  "type": "texture",
+  "collisionDetection": true,
+  "id": "9d06ad4e-7bf8-4d4d-84ac-e5f49daff583",
+  "fileKey": "Leaves_GiantPine.png",
+  "fileFormat": "png",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Stylized Nature MegaKit[Pro]\\Textures\\Leaves_GiantPine.png",
+  "texture": {
+    "flipY": true,
+    "wrapS": "repeat",
+    "wrapT": "repeat"
+  }
+}
