@@ -1,0 +1,9 @@
+{
+  "name": "colormap",
+  "type": "texture",
+  "collisionDetection": true,
+  "id": "9d7352bf-e3c6-4017-a37d-25a8a323abc4",
+  "fileKey": "colormap.png",
+  "fileFormat": "png",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\kenney_mini-dungeon\\Models\\FBX format\\Textures\\colormap.png"
+}

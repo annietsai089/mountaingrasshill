@@ -11,11 +11,11 @@
     "shaderParams": {
       "color": {
         "type": 10,
-        "value": "#99ec88"
+        "value": "#288316"
       },
       "colorBottom": {
         "type": 10,
-        "value": "#1a893b"
+        "value": "#6fd34a"
       },
       "alphaMap": {
         "type": 2,
@@ -24,7 +24,7 @@
     },
     "shader": "GrassShader",
     "transparent": true,
-    "bloom": true
+    "bloom": false
   },
   "id": "9cf4908e-f3d8-45d5-8db6-ff0e1ec44f16"
 }

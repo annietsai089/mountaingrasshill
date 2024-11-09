@@ -35714,7 +35714,7 @@
               {
                 "assetId": "9cf471f9-83b6-4b96-959e-cf8db8217ad0",
                 "viewDistance": 100,
-                "density": 20,
+                "density": 3,
                 "sparseNoiseThreshold": 1,
                 "sparseNoiseScale": 1,
                 "alignToNormal": false,
@@ -36886,138 +36886,6 @@
       "castShadow": true
     },
     {
-      "id": "052fc255-f455-4dc2-a157-c9a957a336c2",
-      "name": "CommonTree_1",
-      "assetId": "9d167223-1b8c-4ea8-b570-d4f243de1a26",
-      "position": [
-        65.9028688615421,
-        -0.2909232631685602,
-        -68.58572099874007
-      ],
-      "scale": [
-        0.037825742408560355,
-        0.03544831533263828,
-        0.03544831533263828
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "castShadow": true,
-      "receiveShadow": true,
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "bd5f5a9f-44ce-4f0d-9690-a93cb9869f25",
-      "name": "CommonTree_1",
-      "assetId": "9d167223-1b8c-4ea8-b570-d4f243de1a26",
-      "position": [
-        31.759762709576016,
-        -7.105427357601002e-15,
-        -53.723915511544774
-      ],
-      "scale": [
-        0.0383827695227475,
-        0.0383827695227475,
-        0.0383827695227475
-      ],
-      "rotation": [
-        0,
-        0.6894107043145312,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true,
-      "receiveShadow": true
-    },
-    {
-      "id": "a7375962-98f0-4437-ae64-b50f6ca07d77",
-      "name": "CommonTree_1",
-      "assetId": "9d167223-1b8c-4ea8-b570-d4f243de1a26",
-      "position": [
-        -137.7306087989749,
-        -0.4698186781897001,
-        -37.10181566305835
-      ],
-      "scale": [
-        0.04258291538601133,
-        0.03838276952274751,
-        0.04590501899831989
-      ],
-      "rotation": [
-        0,
-        0.5166506940872739,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true,
-      "receiveShadow": true
-    },
-    {
-      "id": "446ce134-20e9-4907-9e94-4a0ce458d382",
-      "name": "CommonTree_1",
-      "assetId": "9d167223-1b8c-4ea8-b570-d4f243de1a26",
-      "position": [
-        -171.81546983496725,
-        5.4346663523013605,
-        -40.102996873179634
-      ],
-      "scale": [
-        0.029165847576235707,
-        0.026289087896081174,
-        0.031441219441001984
-      ],
-      "rotation": [
-        0,
-        0.7286609592728612,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true,
-      "receiveShadow": true
-    },
-    {
       "id": "efede471-f5f6-4516-b87d-157bf3866550",
       "name": "Pine_4",
       "assetId": "9d06a2ef-298c-42e6-9ffc-cd212127deae",
@@ -37658,6 +37526,39 @@
         "density": 1,
         "restitution": 0.5,
         "mass": 1
+      }
+    },
+    {
+      "id": "99b7cb62-4664-4cc1-b931-eddefb983a29",
+      "name": "SpawnPoint",
+      "position": [
+        -50.84049020495772,
+        0.2764805541045803,
+        4.97947188879445
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "SpawnPoint",
+        "innerParams": [
+          {
+            "path": [
+              "mesh"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {}
       }
     }
   ]
