@@ -37560,6 +37560,37 @@
         ],
         "params": {}
       }
+    },
+    {
+      "id": "a464ca6b-2e62-4d79-a238-07f6e6ae5a95",
+      "name": "character-human",
+      "assetId": "9d7352a3-da5a-49e6-bfc8-8131d19e53ea",
+      "position": [
+        -50.84049020498121,
+        0.2764805541148725,
+        4.979471888602646
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
     }
   ]
 }
