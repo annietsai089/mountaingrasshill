@@ -2,19 +2,8 @@
   "name": "character-human",
   "type": "mesh",
   "collisionDetection": true,
-  "mesh": {
-    "rescale": 0.01,
-    "collisions": {}
-  },
-  "id": "9d7352a3-da5a-49e6-bfc8-8131d19e53ea",
-  "fileKey": "character-human.fbx",
-  "fileFormat": "fbx",
-  "sourceFile": "C:\\Users\\annie\\Downloads\\kenney_mini-dungeon\\Models\\FBX format\\character-human.fbx",
-  "materialAssignments": [
-    {
-      "color": "#ffffff",
-      "materialId": "9d73519b-d27a-4ff0-90fe-c7d29be475e6",
-      "name": "colormap"
-    }
-  ]
+  "id": "9d735e4a-e240-427f-ac93-adb072a64691",
+  "fileKey": "character-human.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\kenney_mini-dungeon\\Models\\GLB format\\character-human.glb"
 }
