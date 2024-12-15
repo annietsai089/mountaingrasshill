@@ -1,0 +1,12 @@
+{
+  "name": "igloo",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9dbaf6ed-c8f4-48a0-93ad-f8fe9035fbca",
+  "fileKey": "igloo.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\bear-in-an-igloo\\source\\igloo\\igloo.fbx"
+}

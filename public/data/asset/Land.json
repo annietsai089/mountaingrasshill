@@ -1,0 +1,79 @@
+{
+  "name": "Land",
+  "type": "material",
+  "material": {
+    "type": "landscape",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 0,
+    "shaderParams": {
+      "baseColor": {
+        "type": 10,
+        "value": "#dddddd"
+      },
+      "firstColor": {
+        "type": 10,
+        "value": "#ff6f61"
+      },
+      "secondColor": {
+        "type": 10,
+        "value": "#6b5b95"
+      },
+      "thirdColor": {
+        "type": 10,
+        "value": "#88b04b"
+      },
+      "fourthColor": {
+        "type": 10,
+        "value": "#f7cac9"
+      },
+      "fifthColor": {
+        "type": 10,
+        "value": "#92a8d1"
+      },
+      "sixthColor": {
+        "type": 10,
+        "value": "#ffe156"
+      },
+      "seventhColor": {
+        "type": 10,
+        "value": "#34568b"
+      },
+      "eighthColor": {
+        "type": 10,
+        "value": "#ff6f91"
+      },
+      "transition": {
+        "type": 1,
+        "value": 1
+      },
+      "noiseScale": {
+        "type": 1,
+        "value": 1
+      },
+      "noiseAmount": {
+        "type": 1,
+        "value": 0.2
+      },
+      "softness": {
+        "type": 1,
+        "value": 0.3
+      },
+      "enableSlope": {
+        "type": 4,
+        "value": false
+      },
+      "slopeColor": {
+        "type": 10,
+        "value": "#999999"
+      },
+      "slopeAngle": {
+        "type": 1,
+        "value": 35
+      }
+    }
+  },
+  "id": "9db8e298-787e-4435-92d7-fbd911125b33"
+}

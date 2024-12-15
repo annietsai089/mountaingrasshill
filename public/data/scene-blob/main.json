@@ -46,7 +46,7 @@
       "materialAssignments": [
         {
           "color": "#aaaaaa",
-          "materialId": "9cf49303-b0b8-4868-b113-6f7de738edc7",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
           "name": "Default"
         }
       ],
@@ -36827,14 +36827,14 @@
       "name": "Rock_Big_2",
       "assetId": "9d06907c-0770-4083-90ac-dae6a295933f",
       "position": [
-        38.79463605866714,
-        -1.353037516104311,
-        -17.815195819657756
+        38.794636058667116,
+        -1.3530375161043102,
+        -17.815195819657752
       ],
       "scale": [
         2.1381232854468704,
-        1.2319569844876328,
-        1.8502268864558542
+        1.231956984487633,
+        1.850226886455855
       ],
       "rotation": [
         3.141592653589793,
@@ -37533,7 +37533,7 @@
       "name": "SpawnPoint",
       "position": [
         -50.84049020495772,
-        0.2764805541045803,
+        1.2306240164442617,
         4.97947188879445
       ],
       "scale": [
@@ -37542,9 +37542,9 @@
         1
       ],
       "rotation": [
-        0,
-        0,
-        0,
+        -3.141592653589793,
+        -0.13809828849842398,
+        -3.141592653589793,
         "XYZ"
       ],
       "type": "actor",
@@ -37559,6 +37559,2383 @@
           }
         ],
         "params": {}
+      }
+    },
+    {
+      "id": "e1600c9f-e8cc-43e2-87af-ec5be056b4ca",
+      "name": "igloo",
+      "assetId": "9dbaefec-d022-4560-a7b4-499aef755aff",
+      "position": [
+        85.20612710430107,
+        0,
+        -71.94318844182791
+      ],
+      "scale": [
+        0.3549016470678264,
+        0.35490164706782645,
+        0.3549016470678264
+      ],
+      "rotation": [
+        0,
+        -0.4457756341714929,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#bcbcbc",
+          "materialId": "9dbaf0c0-795e-4efe-8dc1-bc516a2304ea",
+          "name": "igloo"
+        },
+        {
+          "color": "#bcbcbc",
+          "materialId": "9dbaf20a-5276-41a2-bd57-28ab03d03231",
+          "name": "bear"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "8c053b0a-0067-431d-a422-c3823011ea55",
+      "name": "igloo",
+      "assetId": "9dbaf6ed-c8f4-48a0-93ad-f8fe9035fbca",
+      "position": [
+        -65.06598971903227,
+        1.0013115548891987,
+        -152.4030394485467
+      ],
+      "scale": [
+        0.4371608203788771,
+        0.43716082037887705,
+        0.4371608203788771
+      ],
+      "rotation": [
+        0,
+        -0.14668321763065087,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#bcbcbc",
+          "materialId": "9dbaf18b-a552-44e7-b043-bca377ad0398",
+          "name": "igloo"
+        },
+        {
+          "color": "#bcbcbc",
+          "materialId": "9dbaf20a-5276-41a2-bd57-28ab03d03231",
+          "name": "bear"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "7c8cfe50-733b-4bcd-9acd-a9cc4bd61034",
+      "name": "Sphere",
+      "position": [
+        -68.28210150147022,
+        0.7895710142359182,
+        -152.92700045026646
+      ],
+      "scale": [
+        7.633858685797865,
+        2.5604162884500883,
+        12.0867583448362
+      ],
+      "rotation": [
+        0,
+        -0.1466832176306509,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "3b780c3c-e276-4851-811b-bc3e8f89ce40",
+      "name": "Sphere",
+      "position": [
+        -61.28538235327883,
+        1.0013115548892013,
+        -148.44153848937398
+      ],
+      "scale": [
+        3.539611296524422,
+        2.560416288450089,
+        3.639482282837789
+      ],
+      "rotation": [
+        0,
+        -0.14668321763065087,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "4a6ee888-e65f-4bb1-b0d8-ff03f4f3885b",
+      "name": "Sphere",
+      "position": [
+        -60.45437341608142,
+        1.0013115548891989,
+        -152.71266875813765
+      ],
+      "scale": [
+        9.736492964421613,
+        2.560416288450089,
+        7.663199315660454
+      ],
+      "rotation": [
+        0,
+        -0.1466832176306508,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "e8f0a74d-3517-4b5e-9174-3e2afe785adc",
+      "name": "Sphere",
+      "position": [
+        -63.074909385705276,
+        1.3505940700214794,
+        -158.57155549082
+      ],
+      "scale": [
+        9.736492964421611,
+        2.560416288450089,
+        7.6631993156604565
+      ],
+      "rotation": [
+        0,
+        -0.14668321763065084,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "85fa8c2f-2ce8-4cf2-8cb1-37760885c694",
+      "name": "Sphere",
+      "position": [
+        -58.259396911038976,
+        1.6653710517193119,
+        -157.72111250593952
+      ],
+      "scale": [
+        9.736492964421611,
+        2.560416288450089,
+        7.6631993156604565
+      ],
+      "rotation": [
+        0,
+        -0.14668321763065084,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "1a6c9701-3fcf-4742-895e-306534be1d8e",
+      "name": "Sphere",
+      "position": [
+        -56.57592811235589,
+        0.9219861273278541,
+        -145.78837643317763
+      ],
+      "scale": [
+        11.323302085556524,
+        2.5604162884500883,
+        12.0867583448362
+      ],
+      "rotation": [
+        0,
+        -0.14668321763065087,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "a47944bd-01dd-4b3f-b85f-53f88a3143c2",
+      "name": "Sphere",
+      "position": [
+        -64.49890561676193,
+        0.32333234339838957,
+        -144.5885264341595
+      ],
+      "scale": [
+        21.643795851920856,
+        2.5604162884500887,
+        12.0867583448362
+      ],
+      "rotation": [
+        0,
+        -0.1466832176306509,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "2f9008ed-1a23-4d0c-8512-ba27c184be76",
+      "name": "Sphere",
+      "position": [
+        -51.701060216086816,
+        3.552713678800501e-15,
+        -143.65189332767733
+      ],
+      "scale": [
+        21.643795851920867,
+        2.5604162884500896,
+        12.086758344836204
+      ],
+      "rotation": [
+        0,
+        0.6807063858536885,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "7ef592a0-490f-4d25-9f2e-c7b00aced42c",
+      "name": "Sphere",
+      "position": [
+        -46.58815906739407,
+        13.127414538109106,
+        -157.48726622042716
+      ],
+      "scale": [
+        11.23450365802769,
+        2.540337256864101,
+        18.98741941159135
+      ],
+      "rotation": [
+        0.01787462137869085,
+        -0.1455978199323597,
+        0.12259711485177917,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "8a2135f0-681e-4d66-8239-c81951394239",
+      "name": "Sphere",
+      "position": [
+        -43.708074098340234,
+        13.483329717271717,
+        -155.03290206159386
+      ],
+      "scale": [
+        11.234503658027691,
+        2.5403372568641025,
+        18.987419411591354
+      ],
+      "rotation": [
+        0.017874621378690808,
+        -0.14559781993235976,
+        0.12259711485177922,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "f8b0c6a8-8955-4394-ba94-5578db835dca",
+      "name": "Sphere",
+      "position": [
+        -84.17475027945676,
+        -0.2346649916420008,
+        -143.02622335398164
+      ],
+      "scale": [
+        21.643795851920864,
+        2.560416288450089,
+        12.0867583448362
+      ],
+      "rotation": [
+        0,
+        -0.14668321763065084,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "0a1cc880-bfbd-453e-92ed-549cb7ab977f",
+      "name": "Sphere",
+      "position": [
+        -93.6532798387501,
+        0.05823336723633503,
+        -140.8317910622472
+      ],
+      "scale": [
+        11.323302085556522,
+        2.5604162884500883,
+        12.086758344836197
+      ],
+      "rotation": [
+        0,
+        -0.14668321763065084,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "ecec0eb8-c802-4bb3-b4d0-5b14c7ed63b2",
+      "name": "Sphere",
+      "position": [
+        -67.29493213192455,
+        -0.4453526539826021,
+        -137.9822566642655
+      ],
+      "scale": [
+        32.79766342997128,
+        2.5403372568641016,
+        18.987419411591354
+      ],
+      "rotation": [
+        -0.028672049352116737,
+        -0.1475495799771992,
+        -0.009885757007325167,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "5e1cdb74-9dc8-476d-8adb-e66eb33cc405",
+      "name": "Sphere",
+      "position": [
+        -64.02643470262167,
+        -3.997227530959526,
+        -131.7215436277541
+      ],
+      "scale": [
+        32.79766342997127,
+        7.872704187000093,
+        36.332913973245645
+      ],
+      "rotation": [
+        -0.20359414129249243,
+        -0.13479252839057698,
+        -0.07372312324745867,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "a83b3cc5-5ce2-4a5c-aed4-cf54e5836905",
+      "name": "Sphere",
+      "position": [
+        -39.251374428203746,
+        17.14537799768162,
+        -107.75487486575857
+      ],
+      "scale": [
+        24.995900632104863,
+        5.999980211528822,
+        27.690201446489382
+      ],
+      "rotation": [
+        0.6034778207662503,
+        0.14013157941864654,
+        0.4044021239943565,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "60ad780f-1c88-46ab-a94a-cf888e3738b6",
+      "name": "Sphere",
+      "position": [
+        -49.51621898728117,
+        15.825221514176897,
+        -111.19331368130791
+      ],
+      "scale": [
+        11.234503658027682,
+        2.5403372568641,
+        18.987419411591333
+      ],
+      "rotation": [
+        0.5532148518803754,
+        -0.0451392794489526,
+        0.38442174773268883,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "d506bccb-8256-4db7-bd0c-4a2a2ea6401d",
+      "name": "snow",
+      "assetId": "9db8e5ee-cdd4-4db9-be73-1bd92611ea42",
+      "position": [
+        -58.68245475297894,
+        102.2567580276789,
+        -346.3317295618647
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "vfx"
+    },
+    {
+      "id": "4a9c1ca1-3211-4579-beab-4a0bb1ea0b49",
+      "name": "Sphere",
+      "position": [
+        -61.90229313339323,
+        -3.645968423484404,
+        -113.39909807043298
+      ],
+      "scale": [
+        45.321423746210996,
+        7.872704187000092,
+        36.33291397324564
+      ],
+      "rotation": [
+        -0.20359414129249265,
+        -0.13479252839057695,
+        -0.0737231232474588,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "05f3b7b7-fe55-4f8f-82a2-27572036b210",
+      "name": "Sphere",
+      "position": [
+        -29.37943972139714,
+        29.625036866693403,
+        -145.72748241728127
+      ],
+      "scale": [
+        17.45549315265372,
+        2.5604162884500874,
+        17.052581578830996
+      ],
+      "rotation": [
+        1.0692201395458658,
+        -0.0582121990566742,
+        0.7410966868888926,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "bffccff3-2a0c-4bbe-89f6-8ce6a91af250",
+      "name": "Sphere",
+      "position": [
+        -24.80633645182389,
+        39.95107579433301,
+        -157.7689854489518
+      ],
+      "scale": [
+        17.45549315265372,
+        2.5604162884500874,
+        17.052581578830992
+      ],
+      "rotation": [
+        0.232547435524762,
+        -0.22459584161925897,
+        0.07445667326377194,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "e3b21424-32c5-4e80-a3d0-710f8066bc0d",
+      "name": "Sphere",
+      "position": [
+        -31.406167698159077,
+        40.90141606247691,
+        -163.60564405587917
+      ],
+      "scale": [
+        14.901232630035398,
+        3.5768705526363407,
+        16.507432134560204
+      ],
+      "rotation": [
+        0.2193958191442088,
+        -0.11000734680487499,
+        -0.04316787645934901,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "555c4570-47a9-4aa8-b25a-2f28136de37c",
+      "name": "Sphere",
+      "position": [
+        -29.800214342471726,
+        25.10165740603489,
+        -112.71642062034914
+      ],
+      "scale": [
+        11.234503658027682,
+        2.5403372568641,
+        18.987419411591333
+      ],
+      "rotation": [
+        0.5532148518803754,
+        -0.0451392794489526,
+        0.38442174773268883,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "a2aba3f8-40bb-4121-8fb1-8267413d3a97",
+      "name": "Sphere",
+      "position": [
+        -13.721580501683897,
+        20.864206737909896,
+        -53.23317215524903
+      ],
+      "scale": [
+        11.23450365802768,
+        2.5403372568641,
+        18.98741941159134
+      ],
+      "rotation": [
+        0.5532148518803746,
+        -0.045139279448952754,
+        0.3844217477326889,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c7e29dcc-3c27-4711-a8b4-fb09be7da697",
+      "name": "Sphere",
+      "position": [
+        -20.459311725880866,
+        20.57875889638352,
+        -57.25530803605627
+      ],
+      "scale": [
+        11.234503658027679,
+        2.5403372568641,
+        18.98741941159134
+      ],
+      "rotation": [
+        0.5532148518803744,
+        -0.04513927944895278,
+        0.38442174773268895,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "ad262325-9a72-40e2-b644-e6a7b0babd94",
+      "name": "Sphere",
+      "position": [
+        -22.116709708159533,
+        16.79329871506075,
+        -49.062162740601615
+      ],
+      "scale": [
+        11.234503658027677,
+        2.5403372568641003,
+        18.98741941159134
+      ],
+      "rotation": [
+        0.38980193256121637,
+        -0.10337463778257107,
+        0.24460076204988535,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "185bc118-2484-43fc-b511-77852be4372b",
+      "name": "Sphere",
+      "position": [
+        -6.902840134557773,
+        18.931139479461244,
+        -49.13628278312054
+      ],
+      "scale": [
+        6.875816946385263,
+        1.554754396986555,
+        11.620808905523482
+      ],
+      "rotation": [
+        -2.8556205321437726,
+        -1.0573954733662783,
+        2.852288748540943,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "d17bb939-a41e-4920-a5ce-1acb1ad2dafa",
+      "name": "Sphere",
+      "position": [
+        -11.279993910911319,
+        18.983154528602103,
+        -48.89860791247619
+      ],
+      "scale": [
+        6.87581694638526,
+        1.554754396986555,
+        11.62080890552348
+      ],
+      "rotation": [
+        -2.855620532143772,
+        -1.0573954733662783,
+        2.852288748540944,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "4dc9eeb1-3c5d-47a3-aaa1-8d5939b740cd",
+      "name": "Sphere",
+      "position": [
+        -18.891174595733254,
+        20.530495514645686,
+        -54.15268083712617
+      ],
+      "scale": [
+        10.475130751961075,
+        1.7122644930001152,
+        12.798097569258402
+      ],
+      "rotation": [
+        0.20005300708127038,
+        -0.07210053838811854,
+        0.25398297238942047,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "4df2952f-2be3-4dc0-b5b2-77650889b967",
+      "name": "Sphere",
+      "position": [
+        -39.548040532336124,
+        14.529162091167017,
+        -152.3634496709558
+      ],
+      "scale": [
+        11.234503658027696,
+        2.5403372568641034,
+        18.987419411591357
+      ],
+      "rotation": [
+        0.03943935946750356,
+        -0.1439314778782189,
+        0.16896802677900047,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "1dfc0508-623d-4bde-9267-74ea664ff3ce",
+      "name": "Sphere",
+      "position": [
+        -24.741265560487975,
+        8.468849595134587,
+        -37.342468662804094
+      ],
+      "scale": [
+        10.475130751961071,
+        1.7122644930001154,
+        12.798097569258406
+      ],
+      "rotation": [
+        0.20005300708126966,
+        -0.07210053838811868,
+        0.2539829723894206,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "5d59971d-ff9b-4cd6-91a6-4905acc068c4",
+      "name": "Sphere",
+      "position": [
+        -23.830560757856237,
+        9.30973069665638,
+        -36.22179335505417
+      ],
+      "scale": [
+        5.741663760740941,
+        0.9385321501998147,
+        7.014936114862425
+      ],
+      "rotation": [
+        0.15104787530911873,
+        -0.10320410224092785,
+        0.09461437629605703,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "94acec33-0600-4dcc-bf16-afebfab03e50",
+      "name": "Sphere",
+      "position": [
+        -105.38202250679713,
+        23.20097548735266,
+        -103.3424696647832
+      ],
+      "scale": [
+        11.234503658027693,
+        2.540337256864104,
+        18.987419411591357
+      ],
+      "rotation": [
+        0.1988253730886416,
+        -0.2024781109862006,
+        -0.2676115052346919,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "d9d06b4c-5f2e-49c9-bd14-703f8bc2b432",
+      "name": "Sphere",
+      "position": [
+        -118.31755947365035,
+        21.67475077191254,
+        -89.66067924625192
+      ],
+      "scale": [
+        13.821243294978368,
+        2.5403372568641034,
+        14.128187912553734
+      ],
+      "rotation": [
+        1.0121971827817355,
+        0.07745014929326902,
+        -0.23485129994017603,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "d72bdf6b-1716-4c45-9087-d9990168762f",
+      "name": "Sphere",
+      "position": [
+        -12.44969039079255,
+        46.682118832998434,
+        -113.63672971901644
+      ],
+      "scale": [
+        9.491980843888031,
+        2.1463193491364563,
+        16.042383964235892
+      ],
+      "rotation": [
+        1.1821057458316415,
+        -0.41359543789684416,
+        0.6731805500893595,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "2fc97bdc-3db8-489d-8aff-66a040f28534",
+      "name": "Sphere",
+      "position": [
+        20.983016477197808,
+        55.22897989496735,
+        -126.37992222053995
+      ],
+      "scale": [
+        58.741877331765245,
+        5.99998021152882,
+        37.365315230821096
+      ],
+      "rotation": [
+        0.05247221652707534,
+        0.13013825364632964,
+        -0.023755159622556126,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c1fbe6a4-eb41-4811-a7c5-978a8f7bea07",
+      "name": "Sphere",
+      "position": [
+        6.125180483481296,
+        56.323284840286505,
+        -138.85518602437358
+      ],
+      "scale": [
+        37.4809735628086,
+        3.828360786216777,
+        20.650723559146815
+      ],
+      "rotation": [
+        0.0524722165270752,
+        0.1301382536463296,
+        -0.023755159622556244,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "25657a72-51c8-4336-8770-22b9d8d7d917",
+      "name": "Sphere",
+      "position": [
+        44.641034861607295,
+        55.834361232553995,
+        -118.36005471396203
+      ],
+      "scale": [
+        37.4809735628086,
+        3.8283607862167757,
+        20.650723559146815
+      ],
+      "rotation": [
+        0.0524722165270752,
+        0.1301382536463296,
+        -0.02375515962255641,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "db6fe365-46cc-4652-ab8d-26695fde077a",
+      "name": "Sphere",
+      "position": [
+        -119.46995471264253,
+        75.11295615883338,
+        -99.5619853358468
+      ],
+      "scale": [
+        32.557512160443785,
+        5.453029166469614,
+        23.30597653168069
+      ],
+      "rotation": [
+        0.1943112871865322,
+        0.13621725501885723,
+        0.11851547383489629,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "458c5ef1-3a71-4a6a-9649-29432f50d436",
+      "name": "Sphere",
+      "position": [
+        -111.41315356731445,
+        63.76612331789635,
+        -92.17633095299783
+      ],
+      "scale": [
+        32.55751216044375,
+        5.453029166469616,
+        23.30597653168067
+      ],
+      "rotation": [
+        0.2079986778262239,
+        0.13621725501885748,
+        0.11851547383489708,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "3bc5e2f4-b01b-4623-8b4f-03f710c67775",
+      "name": "Sphere",
+      "position": [
+        -129.166620526142,
+        74.59237044369168,
+        -99.74322601607771
+      ],
+      "scale": [
+        18.289284389931662,
+        5.4530291664696176,
+        17.774419259553753
+      ],
+      "rotation": [
+        0.15959278831117055,
+        0.17074263410834595,
+        0.32533390169212056,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "a8e8511b-1fe6-438d-b077-a26975a4ed68",
+      "name": "Sphere",
+      "position": [
+        -144.25392045327092,
+        64.51181162305537,
+        -90.67913357561649
+      ],
+      "scale": [
+        18.28928438993165,
+        5.453029166469613,
+        17.774419259553746
+      ],
+      "rotation": [
+        0.5286347605904571,
+        0.08324392049499114,
+        -0.08787226043838799,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "5a89b0fb-ed18-4b3f-a90b-e22d30e32315",
+      "name": "Sphere",
+      "position": [
+        -143.11882318028321,
+        58.09144925965458,
+        -85.43181859203031
+      ],
+      "scale": [
+        37.90232463335967,
+        5.453029166469614,
+        22.686210146110025
+      ],
+      "rotation": [
+        0.5286347605904572,
+        0.0832439204949911,
+        -0.0878722604383882,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "ccfd1e95-69f2-43fd-abb1-08e591109ca7",
+      "name": "Sphere",
+      "position": [
+        -141.8019637643027,
+        22.963774771701726,
+        -76.372092984628
+      ],
+      "scale": [
+        37.902324633359676,
+        14.548629636794999,
+        22.686210146110025
+      ],
+      "rotation": [
+        0.5286347605904568,
+        0.08324392049499119,
+        -0.08787226043838789,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "b9e371cc-fe59-4ad1-8a0a-e94256ddf33c",
+      "name": "Sphere",
+      "position": [
+        -1.4364866562448402,
+        17.289169962334682,
+        -99.32607781423539
+      ],
+      "scale": [
+        42.45464819105259,
+        5.999980211528822,
+        27.690201446489382
+      ],
+      "rotation": [
+        0.6035491446083355,
+        -0.4662602358067195,
+        -0.1363268512268641,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "2e4b4571-317b-4fee-812a-78a594c0ac87",
+      "name": "Sphere",
+      "position": [
+        -106.80061424875035,
+        13.180310014765512,
+        -33.15673231632439
+      ],
+      "scale": [
+        11.234503658027693,
+        2.5403372568641043,
+        13.1688606034838
+      ],
+      "rotation": [
+        0.19882537308864193,
+        -0.20247811098620064,
+        -0.2676115052346919,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c1a30c26-c98e-42b7-ac66-81759066a989",
+      "name": "snow",
+      "assetId": "9db8e5ee-cdd4-4db9-be73-1bd92611ea42",
+      "position": [
+        -0.6980818677314939,
+        55.174149747090695,
+        -22.399454680979993
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "vfx"
+    },
+    {
+      "id": "edcd4235-c0c3-4a49-8172-f6dc82f073df",
+      "name": "snow",
+      "assetId": "9db8e5ee-cdd4-4db9-be73-1bd92611ea42",
+      "position": [
+        0,
+        -10.626334623972696,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "vfx"
+    },
+    {
+      "id": "6abc31ad-14e7-4002-89f3-6a62ad25690b",
+      "name": "snow",
+      "assetId": "9db8e5ee-cdd4-4db9-be73-1bd92611ea42",
+      "position": [
+        -71.0964518927851,
+        39.250495573251044,
+        -144.6370825168688
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "vfx"
+    },
+    {
+      "id": "c54d75b0-6e47-4957-8558-34949e2d896b",
+      "name": "Sphere",
+      "position": [
+        44.644536281188564,
+        1.1883265280925726,
+        -21.62418035862474
+      ],
+      "scale": [
+        10.475130751961078,
+        1.712264493000116,
+        12.798097569258413
+      ],
+      "rotation": [
+        -0.15398810115988196,
+        -0.8772454223391756,
+        -0.07709414768198009,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
       }
     }
   ]

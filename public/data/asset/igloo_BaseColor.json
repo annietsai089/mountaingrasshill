@@ -1,0 +1,9 @@
+{
+  "name": "igloo_BaseColor",
+  "type": "texture",
+  "collisionDetection": true,
+  "id": "9dbaefed-306c-41ac-af3e-1bf6b9e351df",
+  "fileKey": "igloo_BaseColor.png",
+  "fileFormat": "png",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\bear-in-an-igloo\\source\\igloo\\igloo_BaseColor.png"
+}

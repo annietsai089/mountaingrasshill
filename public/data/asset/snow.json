@@ -1,0 +1,158 @@
+{
+  "name": "snow",
+  "type": "vfx",
+  "vfx": {
+    "emitters": [
+      {
+        "id": "tl3m0fuo2",
+        "name": "Emitter",
+        "rate": {
+          "type": "continuous",
+          "count": 14,
+          "time": 0.6,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "w0zqtu6km",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": "6"
+              }
+            }
+          },
+          {
+            "id": "m2ckj16wg",
+            "type": "randomDirection",
+            "params": {
+              "speed": {
+                "value": 3.85,
+                "type": 1
+              }
+            }
+          },
+          {
+            "id": "mzunudn3k",
+            "type": "positionBox",
+            "params": {
+              "position": {
+                "value": [
+                  0,
+                  0,
+                  0
+                ],
+                "type": 8
+              },
+              "dimensions": {
+                "value": [
+                  50,
+                  0.3,
+                  50
+                ],
+                "type": 8
+              }
+            }
+          },
+          {
+            "id": "gktj9l27y",
+            "type": "scale",
+            "params": {
+              "scale": {
+                "value": ".5",
+                "type": 1
+              }
+            }
+          }
+        ],
+        "behaviours": [
+          {
+            "id": "q0a62rswr",
+            "type": "randomDrift",
+            "params": {
+              "drift": {
+                "value": [
+                  0.2,
+                  0.2,
+                  0.2
+                ],
+                "type": 8
+              },
+              "delay": {
+                "value": 0,
+                "type": 1
+              },
+              "ease": {
+                "value": "InBack",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "jrn21kwvz",
+            "type": "gravity",
+            "params": {
+              "gravity": {
+                "value": "0.1",
+                "type": 1
+              },
+              "easing": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "h9md2jcql",
+            "type": "changeOpacity",
+            "params": {
+              "a": {
+                "value": "0",
+                "type": 1
+              },
+              "b": {
+                "value": "1",
+                "type": 1
+              },
+              "ease": {
+                "value": "Linear",
+                "type": 12
+              }
+            }
+          },
+          {
+            "id": "pnlq5nucj",
+            "type": "linearDamping",
+            "params": {
+              "factor": {
+                "value": "2",
+                "type": 1
+              }
+            }
+          }
+        ],
+        "children": [],
+        "output": {
+          "type": "sprite",
+          "texture": null,
+          "color": "#ffffff",
+          "blendingMode": "normal",
+          "space": "world",
+          "softness": 0
+        }
+      }
+    ]
+  },
+  "id": "9db8e5ee-cdd4-4db9-be73-1bd92611ea42"
+}
