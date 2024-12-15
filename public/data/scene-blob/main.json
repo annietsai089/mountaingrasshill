@@ -36474,7 +36474,8 @@
             "density": 1,
             "restitution": 0.5,
             "mass": 1
-          }
+          },
+          "castShadow": false
         },
         {
           "id": "dd698602-548e-4cf3-879d-bb7ae03721e2",
@@ -36505,7 +36506,8 @@
             "density": 1,
             "restitution": 0.5,
             "mass": 1
-          }
+          },
+          "castShadow": true
         },
         {
           "id": "52372450-b53b-4fa4-b411-294ff5b5a1a4",
@@ -39906,6 +39908,198 @@
         -0.15398810115988196,
         -0.8772454223391756,
         -0.07709414768198009,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "fdd23bcb-dbe9-4342-a9b3-c2a3e0fbd25b",
+      "name": "Text",
+      "position": [
+        -91.36858565811211,
+        24.818912708454278,
+        -158.12462478684614
+      ],
+      "scale": [
+        2.491091816330413,
+        2.491091816330413,
+        2.491091816330413
+      ],
+      "rotation": [
+        0,
+        0.3944834461041341,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": false,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "text",
+      "shapeParams": {
+        "text": {
+          "value": "Happy Christmas",
+          "type": 12
+        },
+        "size": {
+          "value": 1,
+          "type": 1
+        },
+        "depth": {
+          "value": 0.2,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "a56ad0d1-52ff-4efe-b01c-df0da0c5affa",
+      "name": "Text",
+      "position": [
+        -83.96359979259961,
+        19.659311629217825,
+        -152.18773559341344
+      ],
+      "scale": [
+        1.39754248272005,
+        1.3975424827200502,
+        1.39754248272005
+      ],
+      "rotation": [
+        0,
+        0.39448344610413427,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": false,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "text",
+      "shapeParams": {
+        "text": {
+          "value": "From Hology Engine",
+          "type": 12
+        },
+        "size": {
+          "value": 1,
+          "type": 1
+        },
+        "depth": {
+          "value": 0.2,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "95a0aa60-361f-4654-a489-1c0d7079fbd6",
+      "name": "Sphere",
+      "position": [
+        0.7861215715161368,
+        17.397410536137176,
+        -54.90792246948596
+      ],
+      "scale": [
+        10.475130751961064,
+        1.7122644930001159,
+        12.79809756925841
+      ],
+      "rotation": [
+        0.4353958392057487,
+        -0.07210053838811867,
+        0.2539829723894217,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9dbaf3d3-88f2-406d-aff7-0f72b67d49d5",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "sphere",
+      "shapeParams": {
+        "withSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 12,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "4735524c-35ac-4334-83e2-4816393679b5",
+      "name": "Sphere",
+      "position": [
+        -26.437067160832136,
+        9.081724253203827,
+        -34.86408705947553
+      ],
+      "scale": [
+        8.113855848776161,
+        1.3262905829199123,
+        9.9131859328911
+      ],
+      "rotation": [
+        0.30020600307249923,
+        -0.20778100663110227,
+        -0.00456553160714455,
         "XYZ"
       ],
       "type": "shape_mesh",
