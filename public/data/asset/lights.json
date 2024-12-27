@@ -1,0 +1,51 @@
+{
+  "name": "lights",
+  "type": "vfx",
+  "vfx": {
+    "emitters": [
+      {
+        "id": "9gkcus11m",
+        "name": "Emitter",
+        "rate": {
+          "type": "continuous",
+          "count": 1,
+          "time": 0.8,
+          "delay": 0
+        },
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "initializers": [
+          {
+            "id": "jp5o6l14d",
+            "type": "lifetime",
+            "params": {
+              "duration": {
+                "type": 1,
+                "value": 1
+              }
+            }
+          }
+        ],
+        "behaviours": [],
+        "children": [],
+        "output": {
+          "type": "sprite",
+          "texture": null,
+          "color": "#e6e4a3",
+          "blendingMode": "normal",
+          "space": "world",
+          "softness": 0
+        }
+      }
+    ]
+  },
+  "id": "9dc504a4-871c-48b7-a402-f5acfde5f128"
+}

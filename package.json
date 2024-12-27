@@ -12,8 +12,8 @@
   "dependencies": {
     "@babel/runtime": "^7.25.6",
     "@dimforge/rapier3d-compat": "^0.14.0",
-    "@hology/core": "^0.0.59",
-    "@hology/react": "^0.0.14",
+    "@hology/core": "^0.0.79",
+    "@hology/react": "^0.0.16",
     "@preact/signals-react": "^2.2.0",
     "@types/three": "^0.169.0",
     "react": "^18.3.1",

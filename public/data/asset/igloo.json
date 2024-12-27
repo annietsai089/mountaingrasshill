@@ -3,7 +3,8 @@
   "type": "mesh",
   "collisionDetection": true,
   "mesh": {
-    "rescale": 0.01
+    "rescale": 0.01,
+    "collisions": {}
   },
   "id": "9dbaf6ed-c8f4-48a0-93ad-f8fe9035fbca",
   "fileKey": "igloo.fbx",

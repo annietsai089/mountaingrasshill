@@ -1,0 +1,9 @@
+{
+  "name": "Glasses",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9dc55754-c7ec-4a7c-8ee6-08a10f65167c",
+  "fileKey": "Glasses.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Glasses.glb"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "red_bowtie",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9dc4f51d-0030-4dd5-a9d9-4ddef9ca32eb",
+  "fileKey": "red_bowtie.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\red_bowtie.glb",
+  "mesh": {
+    "collisions": {}
+  }
+}
